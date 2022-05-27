@@ -1,3 +1,4 @@
+// copyright 111019022 5/27-2022-12：10
 #define NOTE_C4  262
 #define NOTE_CS4 277
 #define NOTE_D4  294
@@ -143,7 +144,7 @@ void ShowLED(){
       }
 
 }
-
+// Copyright 111019022 2022-5/27-12:10
 void BtnAISPress(){
   if(digitalRead(BtnA) == LOW){
       if(presentTime -BtnAPressDelay >=200 ){
@@ -155,7 +156,7 @@ void BtnAISPress(){
 
 
 }
-
+// Copyright 111019022 2022-12:10
 void BtnBISPress()
 {
   if(digitalRead(BtnB) == LOW){
@@ -170,3 +171,5 @@ void BtnBISPress()
       }
   }
 }
+
+// Copyright 111019022 5/27-2022-12:10
